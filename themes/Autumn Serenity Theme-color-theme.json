@@ -55,7 +55,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#a57c5a"
 			}
 		},
 		{
@@ -149,7 +149,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#a57c5a"
 			}
 		},
 		{
@@ -625,4 +625,5 @@
 			}
 		}
 	]
+	
 }
