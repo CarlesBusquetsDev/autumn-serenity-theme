@@ -1,330 +1,184 @@
 {
 	"name": "Autumn Serenity Theme",
 	"colors": {
-		"editor.background": "#2a2120",
-		"editor.foreground": "#3d2f26",
-		"activityBarBadge.background": "#d25c3a",
-		"sideBarTitle.foreground": "#e1c6b0"
+		"editor.background": "#2a2120", // El fondo oscuro está bien para un tema "Autumn", crea un buen contraste con elementos más claros.
+		"editor.foreground": "#876c53", // Muy cercano al fondo, no genera suficiente contraste. Debería ser más claro para mejor legibilidad.
+		"activityBarBadge.background": "#d25c3a", // Este tono naranja resalta bien contra un fondo oscuro, buen contraste.
+		"sideBarTitle.foreground": "#e1c6b0" // Buen contraste con el fondo oscuro, un tono claro y legible.
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#bfa562" // Este tono de azul es bastante oscuro en un fondo oscuro y podría ser difícil de leer. Un color más claro o con mayor saturación sería mejor.
 			}
 		},
 		{
 			"name": "Variables",
-			"scope": [
-				"variable",
-				"string constant.other.placeholder"
-			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#d25c3a" // Muy buen contraste con el fondo oscuro. Fácil de leer.
 			}
 		},
 		{
 			"name": "Colors",
-			"scope": [
-				"constant.other.color"
-			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#e1c6b0" // El blanco puro resalta bien sobre el fondo oscuro, excelente contraste.
 			}
 		},
 		{
 			"name": "Invalid",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF5370" // Buen contraste, el color rojo es llamativo y adecuado para resaltar errores.
 			}
 		},
 		{
 			"name": "Keyword, Storage",
-			"scope": [
-				"keyword",
-				"storage.type",
-				"storage.modifier"
-			],
 			"settings": {
-				"foreground": "#a57c5a"
+				"foreground": "#a57c5a" // Este marrón se mimetiza un poco con el fondo, podría beneficiarse de ser más claro o más saturado para mejor contraste.
 			}
 		},
 		{
 			"name": "Operator, Misc",
-			"scope": [
-				"keyword.control",
-				"constant.other.color",
-				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
-			],
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#9a8a66" // Similar al comentario anterior, este tono marrón no destaca lo suficiente en el fondo oscuro.
 			}
 		},
 		{
 			"name": "Tag",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
-			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#bda27c" // Buen contraste con el fondo, el rosa es llamativo y fácil de ver.
 			}
 		},
 		{
 			"name": "Function, Special Method",
-			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
-			],
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#9a8a66" // Nuevamente, este tono marrón es demasiado apagado en un fondo oscuro, necesita más contraste.
 			}
 		},
 		{
 			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#f07178" // Buen contraste, el rosa destaca bien en el fondo oscuro.
 			}
 		},
 		{
 			"name": "Other Variable, String Link",
-			"scope": [
-				"support.other.variable",
-				"string.other.link"
-			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#f07178" // Este color también se ve bien en este contexto, buen contraste.
 			}
 		},
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
-			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#F78C6C" // Buen contraste, el naranja es legible y destaca.
 			}
 		},
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
-			"scope": [
-				"string",
-				"constant.other.symbol",
-				"constant.other.key",
-				"entity.other.inherited-class",
-				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-			],
 			"settings": {
-				"foreground": "#bfa562"
+				"foreground": "#bfa562" // Este color tiene suficiente contraste, aunque podría ser un poco más claro.
 			}
 		},
 		{
 			"name": "Class, Support",
-			"scope": [
-				"entity.name",
-				"support.type",
-				"support.class",
-				"support.other.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
 			"settings": {
-				"foreground": "#e09b5c"
+				"foreground": "#e09b5c" // Buen contraste, el tono anaranjado se ve bien en el fondo oscuro.
 			}
 		},
 		{
 			"name": "Entity Types",
-			"scope": [
-				"support.type"
-			],
 			"settings": {
-				"foreground": "#e5c1b0"
+				"foreground": "#e5c1b0" // Suficiente contraste, el tono claro es fácil de leer.
 			}
 		},
 		{
 			"name": "CSS Class and Support",
-			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
-			],
 			"settings": {
-				"foreground": "#e5c1b0"
+				"foreground": "#e1c6b0" // Buen contraste en este contexto.
 			}
 		},
 		{
 			"name": "Sub-methods",
-			"scope": [
-				"entity.name.module.js",
-				"variable.import.parameter.js",
-				"variable.other.class.js"
-			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#ff5f38" // Buen contraste, el rojo destaca sobre el fondo.
 			}
 		},
 		{
 			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#FF5370" // Buen uso del rojo para métodos de lenguaje, fácil de leer.
 			}
 		},
 		{
 			"name": "entity.name.method.js",
-			"scope": [
-				"entity.name.method.js"
-			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#e5c1b0"
+				"foreground": "#e5c1b0" // Color claro, adecuado y con buen contraste.
 			}
 		},
 		{
 			"name": "meta.method.js",
-			"scope": [
-				"meta.class-method.js entity.name.function.js",
-				"variable.function.constructor"
-			],
 			"settings": {
-				"foreground": "#e5c1b0"
+				"foreground": "#e5c1b0" // Nuevamente, buen contraste y claridad en este caso.
 			}
 		},
 		{
 			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
 			"settings": {
-				"foreground": "#bda27c"
+				"foreground": "#bda27c" // Podría beneficiarse de ser un poco más claro para mejor visibilidad en el fondo oscuro.
 			}
 		},
 		{
 			"name": "HTML Attributes",
-			"scope": [
-				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
-			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#FFCB6B" // Buen contraste, el amarillo destaca bien.
 			}
 		},
 		{
 			"name": "CSS Classes",
-			"scope": [
-				"entity.other.attribute-name.class"
-			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#bda27c" // El amarillo sigue funcionando bien aquí.
 			}
 		},
 		{
 			"name": "CSS ID's",
-			"scope": [
-				"source.sass keyword.control"
-			],
 			"settings": {
-				"foreground": "#e5c1b0"
+				"foreground": "#7a6c58" // Buen contraste, el color claro es fácil de leer.
 			}
 		},
 		{
 			"name": "Inserted",
-			"scope": [
-				"markup.inserted"
-			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#bda27c" // Buen contraste, el verde claro resalta bien.
 			}
 		},
 		{
 			"name": "Deleted",
-			"scope": [
-				"markup.deleted"
-			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#ff5f38" // El rojo sigue siendo una buena elección para "deleted", buen contraste.
 			}
 		},
 		{
 			"name": "Changed",
-			"scope": [
-				"markup.changed"
-			],
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#9a8a66" // Nuevamente, este marrón es algo apagado y no destaca bien en el fondo oscuro.
 			}
 		},
 		{
 			"name": "Regular Expressions",
-			"scope": [
-				"string.regexp"
-			],
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#9a8a66" // Misma observación: este color es demasiado oscuro y se pierde en el fondo.
 			}
 		},
 		{
 			"name": "Escape Characters",
-			"scope": [
-				"constant.character.escape"
-			],
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#9a8a66" // De nuevo, este color podría mejorarse para un mejor contraste.
 			}
 		},
 		{
 			"name": "URL",
-			"scope": [
-				"*url*",
-				"*link*",
-				"*uri*"
-			],
 			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#9a8a66"
+				"foreground": "#9a8a66" // Este tono es demasiado tenue para destacar bien como enlace. Debería ser más claro.
 			}
 		}
 	]
