@@ -187,5 +187,15 @@
 	  {
 		"scope": ["meta.object.value"],
 		"settings": {
-		  "foreground": "#3d2f
+		  "foreground": "#3d2f26"
+		}
+	  },
+	  {
+		"scope": ["punctuation.section.block.begin", "punctuation.section.block.end"],
+		"settings": {
+		  "foreground": "#bda27c"
+		}
+	  }
+	]
+  }
   
