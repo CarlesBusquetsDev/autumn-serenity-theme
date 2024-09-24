@@ -34,13 +34,13 @@
 		{
 			"name": "Keyword, Storage",
 			"settings": {
-				"foreground": "#a57c5a" // Este marrón se mimetiza un poco con el fondo, podría beneficiarse de ser más claro o más saturado para mejor contraste.
+				"foreground": "#e1c6b0" // Este marrón se mimetiza un poco con el fondo, podría beneficiarse de ser más claro o más saturado para mejor contraste.
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"settings": {
-				"foreground": "#9a8a66" // Similar al comentario anterior, este tono marrón no destaca lo suficiente en el fondo oscuro.
+				"foreground": "#bda27c" // Similar al comentario anterior, este tono marrón no destaca lo suficiente en el fondo oscuro.
 			}
 		},
 		{
