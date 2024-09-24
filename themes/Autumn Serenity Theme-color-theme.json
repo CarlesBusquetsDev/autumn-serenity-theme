@@ -10,7 +10,7 @@
 		{
 			"name": "Comment",
 			"settings": {
-				"foreground": "#7a6c58"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
@@ -22,7 +22,7 @@
 		{
 			"name": "Colors",
 			"settings": {
-				"foreground": "#e1c6b0"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
@@ -34,13 +34,13 @@
 		{
 			"name": "Keyword, Storage",
 			"settings": {
-				"foreground": "#e09b5c"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"settings": {
-				"foreground": "#bda27c"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
@@ -52,7 +52,7 @@
 		{
 			"name": "Function, Special Method",
 			"settings": {
-				"foreground": "#e09b5c"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
@@ -76,25 +76,25 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"settings": {
-				"foreground": "#a57c5a"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "Class, Support",
 			"settings": {
-				"foreground": "#e09b5c"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "Entity Types",
 			"settings": {
-				"foreground": "#e1c6b0"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "CSS Class and Support",
 			"settings": {
-				"foreground": "#e1c6b0"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
@@ -112,19 +112,19 @@
 		{
 			"name": "entity.name.method.js",
 			"settings": {
-				"foreground": "#e1c6b0"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "meta.method.js",
 			"settings": {
-				"foreground": "#e1c6b0"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "Attributes",
 			"settings": {
-				"foreground": "#bda27c"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
@@ -136,19 +136,19 @@
 		{
 			"name": "CSS Classes",
 			"settings": {
-				"foreground": "#bda27c"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "CSS ID's",
 			"settings": {
-				"foreground": "#7a6c58"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "Inserted",
 			"settings": {
-				"foreground": "#bda27c"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
@@ -160,26 +160,27 @@
 		{
 			"name": "Changed",
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "Regular Expressions",
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "Escape Characters",
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#d25c3a"
 			}
 		},
 		{
 			"name": "URL",
 			"settings": {
-				"foreground": "#9a8a66"
+				"foreground": "#d25c3a"
 			}
 		}
 	]
 }
+
