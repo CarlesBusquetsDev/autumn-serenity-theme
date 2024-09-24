@@ -4,7 +4,7 @@
   "description": "Amidst an autumn forest, you’re in a cozy wooden cabin, a fire crackling nearby. With hot chocolate in hand and your computer by your side, you code peacefully, embracing the warmth and beauty of the season.",
   "version": "0.0.1",
   "publisher": "CarlesBusquetsDev",
-  "icon": "./icon/Autumn-icon.png",
+  "icon": "./themes/icon/Autumn-icon.png",
   "engines": {
     "vscode": "^1.93.0"
   },
