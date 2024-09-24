@@ -181,6 +181,8 @@
 				"foreground": "#d25c3a"
 			}
 		}
-	]
+	],
+
+	"tokenNameColor": "#a57c5a"
 }
 
