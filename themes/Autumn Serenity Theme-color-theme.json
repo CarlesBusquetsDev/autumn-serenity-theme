@@ -88,6 +88,7 @@
 		"input.background": "#3d2f26",
 		"input.foreground": "#e1c6b0",
 		"input.border": "#877158",
+		"focusBorder": "#e5c1b0",
 		"input.placeholderForeground": "#a57c5a",
 		"inputOption.activeBackground": "#7a6c58",
 		"inputOption.activeForeground": "#e1c6b0",
@@ -147,7 +148,7 @@
 		"activityBarBadge.background": "#d25c3a",
     	"activityBarBadge.foreground": "#e1c6b0",
 		"window.activeBorder": "#3d2f26",
-		"window.inactiveBorder": "#3d2f26"
+		"window.inactiveBorder": "#3d2f26",
 	},
 	"tokenColors": [
 	  {
