@@ -55,7 +55,7 @@
 		"peekViewResult.fileForeground": "#e1c6b0",
 		"peekViewResult.lineForeground": "#a57c5a",
 		"peekViewResult.matchHighlightBackground": "#a57c5a",
-		"peekViewResult.selectionBackground": "#877158",
+		"peekViewResult.selectionBackground": "#8771586b",
 		"peekViewResult.selectionForeground": "#e09b5c",
 		"peekViewTitle.background": "#d25c3a",
 		"peekViewTitleDescription.foreground": "#a57c5a",
@@ -114,6 +114,10 @@
 		"activityBar.foreground": "#F3D699",
 		"activityBar.activeBorder": "#FFB63F",
 		"activityBar.inactiveForeground": "#D4B98B",
+		"button.background": "#5c4b3f",
+		"button.foreground": "#e1c6b0",
+		"button.hoverBackground": "#7a6c58",
+		"button.border": "#d25c3a"
 	},
 	"tokenColors": [
 	  {
@@ -189,12 +193,6 @@
 		"scope": ["punctuation.section.block.begin", "punctuation.section.block.end"],
 		"settings": {
 		  "foreground": "#bda27c"
-		}
-	  },
-	  {
-		"scope": ["entity.name.function"],
-		"settings": {
-		  "foreground": "#FF5733"
 		}
 	  }
 	  
