@@ -132,6 +132,7 @@
 		"notificationsErrorIcon.foreground": "#ff3b3b",
 		"notificationsWarningIcon.foreground": "#ff6735",
 		"notificationsInfoIcon.foreground": "#e09b5c",
+		"list.dropBackground": "#4b3a31",
 		"list.activeSelectionBackground": "#7a6c58",
 		"list.activeSelectionForeground": "#e1c6b0",
 		"list.inactiveSelectionBackground": "#4b3a31",
@@ -144,12 +145,6 @@
 		"gitDecoration.modifiedResourceForeground": "#e09b5c",
 		"activityBarBadge.background": "#d25c3a",
     	"activityBarBadge.foreground": "#e1c6b0"
-	},
-	"workbench.colorCustomizations": {
-		"dropdown.background": "#3d2f26",
-		"dropdown.foreground": "#e1c6b0",
-		"menu.background": "#5c4b3f",
-		"menu.foreground": "#e1c6b0"
 	},
 	"tokenColors": [
 	  {
