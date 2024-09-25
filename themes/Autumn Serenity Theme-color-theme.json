@@ -9,7 +9,7 @@
 		"editor.lineHighlightBackground": "#87715870",
 		"editor.selectionBackground": "#5c4b3f",
 		"editor.selectionHighlightBackground": "#5c4b3f70",
-		"editor.wordHighlightBackground": "#ff673570",
+		"editor.wordHighlightBackground": "#ff683550",
 		"editor.wordHighlightStrongBackground": "#ff3b3b70",
 		"editor.findMatchBackground": "#e09b5c",
 		"editor.findMatchHighlightBackground": "#e09b5c70",
@@ -124,7 +124,12 @@
 		"notificationToast.border": "#d25c3a",
 		"notificationsErrorIcon.foreground": "#ff3b3b",
 		"notificationsWarningIcon.foreground": "#ff6735",
-		"notificationsInfoIcon.foreground": "#e09b5c"      
+		"notificationsInfoIcon.foreground": "#e09b5c",
+		"list.activeSelectionBackground": "#d25c3a",        // Fondo de selección activa (cambio de azul)
+		"list.activeSelectionForeground": "#e1c6b0",        // Texto de selección activa
+		"list.inactiveSelectionBackground": "#a57c5a",      // Fondo de selección inactiva (cambio cuando el editor no está en foco)
+		"list.inactiveSelectionForeground": "#e1c6b0",      // Texto de selección inactiva
+		"gitDecoration.modifiedResourceForeground": "#e09b5c" // Color del ícono de archivo modificado      
 	},
 	"tokenColors": [
 	  {
