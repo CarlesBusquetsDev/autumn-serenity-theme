@@ -190,7 +190,14 @@
 		"settings": {
 		  "foreground": "#bda27c"
 		}
+	  },
+	  {
+		"scope": ["entity.name.function"],
+		"settings": {
+		  "foreground": "#FF5733"
+		}
 	  }
+	  
 	]
   }
   
