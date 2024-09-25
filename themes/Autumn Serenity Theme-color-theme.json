@@ -35,7 +35,7 @@
 		"tab.activeForeground": "#e1c6b0",
 		"tab.hoverBackground": "#7a6c58",
 		"tab.hoverForeground": "#e1c6b0",
-		"tab.unfocusedHoverBackground": "#7a6c58",
+		"tab.unfocusedHoverBackground": "#3d2f26",
 		"tab.unfocusedHoverForeground": "#e1c6b0",
 		"tab.border": "#877158",
 		"tab.activeModifiedBorder": "#e09b5c",
@@ -144,6 +144,12 @@
 		"gitDecoration.modifiedResourceForeground": "#e09b5c",
 		"activityBarBadge.background": "#d25c3a",
     	"activityBarBadge.foreground": "#e1c6b0"
+	},
+	"workbench.colorCustomizations": {
+		"dropdown.background": "#3d2f26",
+		"dropdown.foreground": "#e1c6b0",
+		"menu.background": "#5c4b3f",
+		"menu.foreground": "#e1c6b0"
 	},
 	"tokenColors": [
 	  {
