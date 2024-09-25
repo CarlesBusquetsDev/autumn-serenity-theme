@@ -132,7 +132,7 @@
 		"notificationsErrorIcon.foreground": "#ff3b3b",
 		"notificationsWarningIcon.foreground": "#ff6735",
 		"notificationsInfoIcon.foreground": "#e09b5c",
-		"list.dropBackground": "#4b3a31",
+		"dropdown.background": "#4b3a31",
 		"list.activeSelectionBackground": "#7a6c58",
 		"list.activeSelectionForeground": "#e1c6b0",
 		"list.inactiveSelectionBackground": "#4b3a31",
