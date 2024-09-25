@@ -5,10 +5,10 @@
 	"colors": {
 		"editor.background": "#3d2f26",
 		"editor.foreground": "#e1c6b0",
-		"editor.hoverHighlightBackground": "#a57c5a70",
+		"editor.hoverHighlightBackground": "#00000000",
 		"editor.lineHighlightBackground": "#877158",
-		"editor.selectionBackground": "#e09c5c62",
-		"editor.selectionHighlightBackground": "#d25c3a70",
+		"editor.selectionBackground": "#00000000",
+		"editor.selectionHighlightBackground": "#00000000",
 		"editor.wordHighlightBackground": "#ff673570",
 		"editor.wordHighlightStrongBackground": "#ff3b3b70",
 		"editor.findMatchBackground": "#e09b5c",
