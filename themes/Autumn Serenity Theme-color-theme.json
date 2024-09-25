@@ -87,6 +87,12 @@
 		"input.foreground": "#e1c6b0",
 		"input.border": "#877158",
 		"input.placeholderForeground": "#a57c5a",
+		"inputOption.activeBackground": "#7a6c58",
+		"inputOption.activeForeground": "#e1c6b0",
+		"inputOption.activeBorder": "#bda27c",
+		"inputValidation.infoBorder": "#e09b5c",
+		"inputValidation.warningBorder": "#ff6735",
+		"inputValidation.errorBorder": "#ff3b3b",   
 		"debugToolBar.background": "#3d2f26",
 		"debugToolBar.border": "#877158",
 		"debugConsole.errorForeground": "#ff3b3b",
@@ -124,18 +130,18 @@
 		"notificationsErrorIcon.foreground": "#ff3b3b",
 		"notificationsWarningIcon.foreground": "#ff6735",
 		"notificationsInfoIcon.foreground": "#e09b5c",
-		"list.activeSelectionBackground": "#7a6c58",        // Fondo de selección activa (cambio de azul)
-		"list.activeSelectionForeground": "#e1c6b0",        // Texto de selección activa
-		"list.inactiveSelectionBackground": "#4b3a31",      // Fondo de selección inactiva (cambio cuando el editor no está en foco)
+		"list.activeSelectionBackground": "#7a6c58",
+		"list.activeSelectionForeground": "#e1c6b0",
+		"list.inactiveSelectionBackground": "#4b3a31",
 		"list.inactiveSelectionForeground": "#e1c6b0",
-		"list.hoverBackground": "#5c4b3f",           // Fondo al pasar el cursor sobre un elemento
-		"list.hoverForeground": "#e1c6b0",           // Color del texto al pasar el cursor
-		"list.focusBackground": "#d25c3a",           // Fondo cuando el elemento tiene el foco
-		"list.focusForeground": "#e1c6b0",           // Color del texto cuando tiene el foco
-		"list.focusOutline": "#ff933400",              // Borde alrededor del elemento con foco
+		"list.hoverBackground": "#5c4b3f",
+		"list.hoverForeground": "#e1c6b0",
+		"list.focusBackground": "#a57c5a",
+		"list.focusForeground": "#e1c6b0",
+		"list.focusOutline": "#ff933400",
 		"gitDecoration.modifiedResourceForeground": "#e09b5c",
-		"activityBarBadge.background": "#d25c3a",   // Cambia el color de fondo del ícono de notificación
-    	"activityBarBadge.foreground": "#e1c6b0"    // Cambia el color del número en el ícono de notificación
+		"activityBarBadge.background": "#d25c3a",
+    	"activityBarBadge.foreground": "#e1c6b0"
 	},
 	"tokenColors": [
 	  {
@@ -215,5 +221,5 @@
 	  }
 	  
 	]
-  }
+}
   
