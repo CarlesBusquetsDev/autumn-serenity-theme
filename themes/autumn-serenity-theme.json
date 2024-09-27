@@ -148,13 +148,23 @@
 		"activityBarBadge.background": "#d25c3a",
     	"activityBarBadge.foreground": "#e1c6b0",
 		"window.activeBorder": "#3d2f26",
-		"window.inactiveBorder": "#3d2f26",
+		"window.inactiveBorder": "#3d2f26"
 	},
 	"tokenColors": [
 	  {
 		"scope": ["comment"],
 		"settings": {
 		  "foreground": "#a57c5a"
+		}
+	  },
+	  {
+		"name": "Markdown link",
+		"scope": [
+		  "markup.underline.link.markdown",
+		  "markup.underline.link"
+		],
+		"settings": {
+		  "foreground": "#d25c3a"
 		}
 	  },
 	  {
