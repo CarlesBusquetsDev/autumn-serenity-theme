@@ -10,12 +10,21 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "autumn",
+    "serenity",
+    "dark theme",
+    "seasonal",
+    "cozy",
+    "forest"
+  ],
+  "icon": "images/icon.png",
   "contributes": {
     "themes": [
       {
         "label": "Autumn Serenity Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Autumn Serenity Theme-color-theme.json"
+        "path": "./themes/autumn-serenity-color-theme.json"
       }
     ]
   },
@@ -23,5 +32,12 @@
     "type": "git",
     "url": "https://github.com/CarlesBusquetsDev/autumn-serenity-theme.git"
   },
-  "license": "LICENSE.txt"
+  "bugs": {
+    "url": "https://github.com/CarlesBusquetsDev/autumn-serenity-theme/issues"
+  },
+  "homepage": "https://github.com/CarlesBusquetsDev/autumn-serenity-theme#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "vscode": "^1.93.0"
+  }
 }
