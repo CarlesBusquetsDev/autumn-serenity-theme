@@ -8,10 +8,7 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
 * Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
 
@@ -44,10 +41,8 @@ If you're writing documentation or authoring markdown files in Visual Studio Cod
 ###Feedback and Contributions
 We welcome feedback! If you encounter any issues or have suggestions for improving the theme, feel free to open an issue or contribute via pull requests on the Autumn Serenity GitHub repository.
 
-Useful Resources
-Markdown Support in Visual Studio Code
-Markdown Syntax Guide
-VS Code Theme Documentation
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 Enjoy coding with the warmth and serenity of autumn! 🍂
 
