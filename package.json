@@ -2,7 +2,7 @@
   "name": "autumn-serenity-theme",
   "displayName": "Autumn Serenity",
   "description": "Autumn dark-theme. Immerse yourself in autumn’s tranquility with this dark theme. A cozy cabin, warm fire, and earthy tones create a calm, focused coding environment.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "CarlesBusquetsDev",
   "engines": {
     "vscode": "^1.93.0"
