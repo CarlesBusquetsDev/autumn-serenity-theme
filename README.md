@@ -2,6 +2,9 @@
 
 ### Autumn Serenity is a carefully crafted dark theme for Visual Studio Code, designed to immerse you in the calming hues of autumn. Feel the tranquility of fall with warm, earthy tones that reduce eye strain and create a soothing coding environment.
 
+### Screenshots
+<img width="1182" alt="autumn-serenity" src="./images/autumn-serenity.png">
+
 ### Features
 * Warm Autumn Palette: Inspired by the vibrant oranges, reds, and browns of fall leaves.
 Balanced Contrast: Ensures clear readability while maintaining a visually pleasing dark background.
@@ -14,9 +17,6 @@ Balanced Contrast: Ensures clear readability while maintaining a visually pleasi
 3. Search for Autumn Serenity.
 4. Click Install to add the theme to your editor.
 5. Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS) and type Color Theme, then select Autumn Serenity from the list.
-
-### Screenshots
-<img width="1182" alt="autumn-serenity" src="https://github.com/user-attachments/assets/af6c2f4e-51a8-463d-aafa-48fb3ab52934">
 
 ### Working with Markdown in VS Code
 If you're writing documentation or authoring markdown files in Visual Studio Code, here are some useful editor keyboard shortcuts to enhance your workflow:
