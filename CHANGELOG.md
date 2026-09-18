@@ -3,6 +3,9 @@
 All notable changes to the **Autumn Serenity** theme are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/).
 
+## [1.1.1] - 2026-09-18
+- Marketplace page: single screenshot, palette table removed from the README.
+
 ## [1.1.0] - 2026-09-18
 
 ### Added

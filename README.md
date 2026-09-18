@@ -4,9 +4,7 @@ A dark theme for Visual Studio Code inspired by the calming hues of autumn: warm
 
 > **🍂 Updated — September 2026.** Autumn Serenity has been rebuilt from the ground up: a new accessible palette, richer syntax highlighting, full terminal and bracket colours, and a redesigned icon. This is an actively maintained theme and more updates are on the way. Give it a try and [let me know what you think](https://github.com/CarlesBusquetsDev/autumn-serenity-theme/issues) — every bit of feedback helps shape the next release.
 
-<img alt="Autumn Serenity — TypeScript" src="./images/preview-typescript.png">
-
-<img alt="Autumn Serenity — React / JSX" src="./images/preview-react.png">
+<img alt="Autumn Serenity" src="./images/preview-typescript.png">
 
 ## Features
 
@@ -21,28 +19,6 @@ A dark theme for Visual Studio Code inspired by the calming hues of autumn: warm
 2. Go to the Extensions sidebar (`Ctrl+Shift+X` / `Cmd+Shift+X`).
 3. Search for **Autumn Serenity** and click **Install**.
 4. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), run **Preferences: Color Theme** and pick **Autumn Serenity Theme**.
-
-## Palette
-
-| Name | Hex | Used for |
-|---|---|---|
-| Soil | `#3d2f26` | Editor background, panels, status bar |
-| Driftwood | `#877158` | Borders, current line, bracket match |
-| Clay | `#a57c5a` | Secondary text, line numbers |
-| Mocha | `#b89273` | Comments |
-| Parchment | `#e1c6b0` | Editor text |
-| Cream | `#ffecd0` | UI text, icons, titles |
-| Amber | `#e09b5c` | Strings, find matches |
-| Pumpkin | `#d97757` | Links, badges, progress, cursor |
-| Rust | `#d25c3a` | Modified lines, scrollbar |
-| Brick | `#b8482a` | Badge backgrounds |
-| Flame | `#ff6735` | Constants, warnings |
-| Tangerine | `#ff9334` | Variables, tags |
-| Ember | `#ff3b3b` | Errors, deleted lines |
-| Fern | `#9db386` | Functions, methods |
-| Lichen | `#9cbab1` | Types, classes, interfaces |
-
-The full palette lives in [`src/palette.js`](src/palette.js).
 
 ## Development
 
