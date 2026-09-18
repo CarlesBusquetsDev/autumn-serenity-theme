@@ -48,7 +48,6 @@ To see changes live while editing, press `F5` in this repo: VS Code opens an Ext
 - Every text colour now meets WCAG AA contrast on the editor background.
 - Full 16-colour terminal palette, six-level bracket pair colours, complete git decorations.
 - 28 syntax rules (was 13) plus semantic token colours for TypeScript, Python, Rust and more.
-- New icon and screenshots.
 
 See the [CHANGELOG](CHANGELOG.md) for the full list.
 
