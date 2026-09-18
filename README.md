@@ -1,36 +1,83 @@
 # Autumn Serenity Theme
 
-### Autumn Serenity is a carefully crafted dark theme for Visual Studio Code, designed to immerse you in the calming hues of autumn. Feel the tranquility of fall with warm, earthy tones that reduce eye strain and create a soothing coding environment.
+A dark theme for Visual Studio Code inspired by the calming hues of autumn: warm, earthy tones that reduce eye strain and create a soothing coding environment.
 
-### Screenshots
-<img width="1182" alt="autumn-serenity" src="./images/autumn-serenity.png">
+> **🍂 Updated — September 2026.** Autumn Serenity has been rebuilt from the ground up: a new accessible palette, richer syntax highlighting, full terminal and bracket colours, and a redesigned icon. This is an actively maintained theme and more updates are on the way. Give it a try and [let me know what you think](https://github.com/CarlesBusquetsDev/autumn-serenity-theme/issues) — every bit of feedback helps shape the next release.
 
-### Features
-* Warm Autumn Palette: Inspired by the vibrant oranges, reds, and browns of fall leaves.
-Balanced Contrast: Ensures clear readability while maintaining a visually pleasing dark background.
-* Focused Syntax Highlighting: Colors are chosen to emphasize code readability without overwhelming your eyes.
-* Compatible with Multiple Languages: Works seamlessly with popular programming languages like JavaScript, Python, HTML, CSS, and more.
+<img alt="Autumn Serenity — TypeScript" src="./images/preview-typescript.png">
 
-### Installation
+<img alt="Autumn Serenity — React / JSX" src="./images/preview-react.png">
+
+## Features
+
+- **Warm autumn palette** — oranges, reds and browns of fall leaves.
+- **Balanced contrast** — clear readability on a soft dark background.
+- **Focused syntax highlighting** — colours chosen to emphasise structure without overwhelming your eyes.
+- **Works everywhere** — JavaScript, TypeScript, Python, HTML, CSS, Markdown and more.
+
+## Installation
+
 1. Open Visual Studio Code.
-2. Go to the Extensions sidebar (Ctrl+Shift+X or Cmd+Shift+X on macOS).
-3. Search for Autumn Serenity.
-4. Click Install to add the theme to your editor.
-5. Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS) and type Color Theme, then select Autumn Serenity from the list.
+2. Go to the Extensions sidebar (`Ctrl+Shift+X` / `Cmd+Shift+X`).
+3. Search for **Autumn Serenity** and click **Install**.
+4. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), run **Preferences: Color Theme** and pick **Autumn Serenity Theme**.
 
-### Working with Markdown in VS Code
-If you're writing documentation or authoring markdown files in Visual Studio Code, here are some useful editor keyboard shortcuts to enhance your workflow:
+## Palette
 
-* Split the editor: (Cmd+\ on macOS or Ctrl+\ on Windows/Linux) to view multiple files side-by-side.
-* Toggle preview: (Shift+Cmd+V on macOS or Shift+Ctrl+V on Windows/Linux) to see how your Markdown renders.
-*Auto-complete Markdown: Press Ctrl+Space (Windows, Linux, macOS) to trigger a list of Markdown snippets.
+| Name | Hex | Used for |
+|---|---|---|
+| Soil | `#3d2f26` | Editor background, panels, status bar |
+| Driftwood | `#877158` | Borders, current line, bracket match |
+| Clay | `#a57c5a` | Secondary text, line numbers |
+| Mocha | `#b89273` | Comments |
+| Parchment | `#e1c6b0` | Editor text |
+| Cream | `#ffecd0` | UI text, icons, titles |
+| Amber | `#e09b5c` | Strings, find matches |
+| Pumpkin | `#d97757` | Links, badges, progress, cursor |
+| Rust | `#d25c3a` | Modified lines, scrollbar |
+| Brick | `#b8482a` | Badge backgrounds |
+| Flame | `#ff6735` | Constants, warnings |
+| Tangerine | `#ff9334` | Variables, tags |
+| Ember | `#ff3b3b` | Errors, deleted lines |
+| Fern | `#9db386` | Functions, methods |
+| Lichen | `#9cbab1` | Types, classes, interfaces |
 
-### Feedback and Contributions
-We welcome feedback! If you encounter any issues or have suggestions for improving the theme, feel free to open an issue or contribute via pull requests on the Autumn Serenity GitHub repository.
+The full palette lives in [`src/palette.js`](src/palette.js).
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Development
+
+The theme JSON is **generated** — do not edit `themes/autumn-serenity-theme.json` by hand.
+
+```
+src/palette.js   named colours (single source of truth)
+src/theme.js     workbench + token colours, written with palette names
+scripts/build.js generates themes/autumn-serenity-theme.json
+```
+
+```bash
+npm install            # once
+npm run build          # regenerate the theme JSON
+npm run check          # verify the JSON is in sync with src/ (use in CI)
+npm run package        # build a .vsix into dist/
+npm run install:local  # package and install into your VS Code
+npm run publish        # publish to the Marketplace (needs a vsce token)
+```
+
+To see changes live while editing, press `F5` in this repo: VS Code opens an Extension Development Host that reloads the theme every time the JSON is rebuilt.
+
+## What's new in 1.1.0
+
+- New primary accent (pumpkin `#d97757`) everywhere VS Code used to fall back to blue.
+- Two cool counterpoints — fern green for functions, lichen for types — so code has real tonal variety.
+- Every text colour now meets WCAG AA contrast on the editor background.
+- Full 16-colour terminal palette, six-level bracket pair colours, complete git decorations.
+- 28 syntax rules (was 13) plus semantic token colours for TypeScript, Python, Rust and more.
+- New icon and screenshots.
+
+See the [CHANGELOG](CHANGELOG.md) for the full list.
+
+## Feedback and contributions
+
+I'm actively working on this theme and will keep shipping updates. If something looks off in your language or setup, or you have an idea, please [open an issue](https://github.com/CarlesBusquetsDev/autumn-serenity-theme/issues) — screenshots are especially welcome. Pull requests are welcome too. And if you enjoy the theme, a rating on the Marketplace goes a long way.
 
 Enjoy coding with the warmth and serenity of autumn! 🍂
-
-

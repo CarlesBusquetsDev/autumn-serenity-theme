@@ -1,9 +1,12 @@
 {
   "name": "autumn-serenity-theme",
   "displayName": "Autumn Serenity",
-  "description": "Autumn dark-theme. Immerse yourself in autumn’s tranquility with this dark theme. A cozy cabin, warm fire, and earthy tones create a calm, focused coding environment.",
-  "version": "1.0.4",
+  "description": "Autumn dark theme, freshly updated (2026). Warm earthy tones, a cozy cabin-and-fire mood and an accessible palette for long coding sessions. Actively maintained — try it and share your feedback!",
+  "version": "1.1.0",
   "publisher": "CarlesBusquetsDev",
+  "license": "MIT",
+  "type": "module",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -18,7 +21,6 @@
     "cozy",
     "forest"
   ],
-  "icon": "images/icon.png",
   "contributes": {
     "themes": [
       {
@@ -28,6 +30,16 @@
       }
     ]
   },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "check": "node scripts/build.js --check",
+    "package": "npm run build && node -e \"import('node:fs').then(fs => fs.mkdirSync('dist', { recursive: true }))\" && vsce package --out dist/",
+    "install:local": "npm run package && code --install-extension dist/autumn-serenity-theme-$npm_package_version.vsix --force",
+    "publish": "npm run build && vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/CarlesBusquetsDev/autumn-serenity-theme.git"
@@ -35,9 +47,5 @@
   "bugs": {
     "url": "https://github.com/CarlesBusquetsDev/autumn-serenity-theme/issues"
   },
-  "homepage": "https://github.com/CarlesBusquetsDev/autumn-serenity-theme#readme",
-  "license": "MIT",
-  "devDependencies": {
-    "vscode": "^1.93.0"
-  }
+  "homepage": "https://github.com/CarlesBusquetsDev/autumn-serenity-theme#readme"
 }

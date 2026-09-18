@@ -1,9 +1,12 @@
-node_modules/**
+# Only package.json, themes/, images/, README, CHANGELOG and LICENSE ship in the .vsix
 .vscode/**
-.vscode-test/**
 .git/**
-*.log
-*.md
-tests/**
 .gitignore
-vsc-extension-quickstart.md
+.gitattributes
+.DS_Store
+node_modules/**
+src/**
+scripts/**
+dist/**
+*.vsix
+*.log
