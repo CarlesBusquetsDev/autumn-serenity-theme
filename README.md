@@ -2,7 +2,7 @@
 
 A dark theme for Visual Studio Code inspired by the calming hues of autumn: warm, earthy tones that reduce eye strain and create a soothing coding environment.
 
-> **🍂 Updated — September 2026.** Autumn Serenity has been rebuilt from the ground up: a new accessible palette, richer syntax highlighting, full terminal and bracket colours, and a redesigned icon. This is an actively maintained theme and more updates are on the way. Give it a try and [let me know what you think](https://github.com/CarlesBusquetsDev/autumn-serenity-theme/issues) — every bit of feedback helps shape the next release.
+> **🍂 It's September, and that means Autumn Serenity is back.** The theme has been rebuilt from the ground up: a new accessible palette, richer syntax highlighting, full terminal and bracket colours, and a redesigned icon. This is an actively maintained theme and more updates are on the way. Give it a try and [let me know what you think](https://github.com/CarlesBusquetsDev/autumn-serenity-theme/issues) — every bit of feedback helps shape the next release.
 
 <img alt="Autumn Serenity" src="./images/preview-typescript.png">
 
