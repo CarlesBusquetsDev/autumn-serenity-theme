@@ -44,7 +44,7 @@ To see changes live while editing, press `F5` in this repo: VS Code opens an Ext
 ## What's new in 1.1.0
 
 - New primary accent (pumpkin `#d97757`) everywhere VS Code used to fall back to blue.
-- Two cool counterpoints — fern green for functions, lichen for types — so code has real tonal variety.
+- Two cool counterpoints fern green for functions, lichen for types — so code has real tonal variety.
 - Every text colour now meets WCAG AA contrast on the editor background.
 - Full 16-colour terminal palette, six-level bracket pair colours, complete git decorations.
 - 28 syntax rules (was 13) plus semantic token colours for TypeScript, Python, Rust and more.
